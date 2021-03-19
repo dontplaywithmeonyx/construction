@@ -42,6 +42,9 @@ a {
 .pull-quote {
   font-style: italic;
 }
+iframe {
+  margin-top: 1.5rem;
+}
 @media screen and (max-width: 480px) {
   h1 {
     font-size: 1.5rem;
