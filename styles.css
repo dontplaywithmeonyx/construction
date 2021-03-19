@@ -10,8 +10,6 @@ html, body {
 }
 body {
   background: rgb(23, 25, 24);
-  /*background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
-  color: #222;*/
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;
@@ -37,15 +35,9 @@ h3 {
 a {
   color: lightblue;
 }
-/* #quote {
-  text-align: left;
-} */
 #logo, img {
   width: 8rem;
   text-align: center;
-  /* text-indent: -9999px; */
-  background: url(https://cdn.shopify.com/s/files/1/0147/3118/2180/files/ONYX_LOGO_LARGE_WHITE.svg);
-  background-size: 10rem 10rem;
 }
 .pull-quote {
   font-style: italic;
@@ -54,14 +46,6 @@ a {
   h1 {
     font-size: 1.5rem;
   }
-}
-h1::after {
-  content: "";
-  background-color: #ffe800;
-  background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
-  display: block;
-  height: 0.15rem;
-  margin-top: 1rem;
 }
 p {
   margin: 1rem 0 0 0;
