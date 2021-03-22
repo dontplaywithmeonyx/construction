@@ -64,6 +64,10 @@ a {
   height: 100%;
 }
 
+p {
+  text-align: justify;
+}
+
 @media screen and (max-width: 900px) and (min-width: 480px) {
   html, body {
     margin-top: 0rem;
