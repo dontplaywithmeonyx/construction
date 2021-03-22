@@ -21,6 +21,10 @@ main {
   padding: 1rem;
   text-align: center;
   max-height: 90%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 h1 {
   font-weight: 100;
@@ -66,6 +70,7 @@ a {
 
 p {
   text-align: justify;
+  max-width: 900px;
 }
 
 @media screen and (max-width: 900px) and (min-width: 480px) {
